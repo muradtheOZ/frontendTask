@@ -55,5 +55,5 @@ const moveBoxAnimation = ()=>{
     square.style.left = `${leftValue}px`;
 }
 
-// Calling the animation function in every 10 second
-setInterval(moveBoxAnimation,1000);
+// Calling the animation function in every second
+setInterval(moveBoxAnimation,100);
