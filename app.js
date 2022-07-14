@@ -3,9 +3,8 @@ const square = document.getElementById('square');
 
 // initializing primary variables
 
-// box height is 100 and it's position is set to 50. so total 150 and 
-// for not going out of screen we need to add another 100 that's why we subtract 250 here"
-const height = screen.height -250;
+// box height is 100 and for not going out of screen we need to add another 100 that's why we subtract 200 here"
+const height = screen.height -200;
 
 const width = screen.width -100;
 let topValue = 50; //first time box is set to the 50px;
