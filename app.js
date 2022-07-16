@@ -56,4 +56,4 @@ const moveBoxAnimation = ()=>{
 }
 
 // Calling the animation function in every second
-setInterval(moveBoxAnimation,100);
+setInterval(moveBoxAnimation,1000);
